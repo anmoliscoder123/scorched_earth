@@ -1,0 +1,14 @@
+header{
+    display: flex;
+    justify-content: space-around;
+
+}
+ul{
+    display: flex;
+    
+}
+.logo{
+    color: black;
+    font-size: 2em;
+    transform: translateX(-68px);
+}
