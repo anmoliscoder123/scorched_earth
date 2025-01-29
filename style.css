@@ -9,6 +9,7 @@
     font-family: "Noto Sans", serif;
 }
 header{
+    
     display: flex;
     justify-content: space-around;
 align-items: center;
@@ -84,7 +85,7 @@ text-decoration: underline;
 .first_body{
  display: flex;
  justify-content: space-around;
- margin-top: 20px;
+ margin-top: 80px;
 }
 .left_side{
     transform: translateX(5px);
@@ -134,3 +135,27 @@ margin-top: 30px;
     margin-right: 14px;
     padding: 5px 7px 5px 7px;
 }
+.skills:hover{
+    background-color: rgb(75, 70, 70);
+    cursor: pointer;
+}
+.web_based{
+    background: linear-gradient(to right, rgb(59, 130, 246), rgb(147, 51, 234), rgb(99, 102, 241));
+    -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+.waver{
+    display: inline-block;
+    animation: wave 1.5s infinite ease-in-out;
+      transform-origin: bottom center;
+}
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(20deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-20deg); }
+    100% { transform: rotate(0deg); }
+  }
+  .queen{
+    font-weight: bold;
+  }
