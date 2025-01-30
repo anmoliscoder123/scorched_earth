@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root{
     --primary-color: rgb(79, 70, 229);
+    --secondary-color:rgb(59, 130, 246);
     --radius:5px;
 }
 *{
@@ -158,4 +159,64 @@ margin-top: 30px;
   }
   .queen{
     font-weight: bold;
+  }
+  .second_body{
+    margin-top: 109px;
+   
+  }
+  .education{
+    padding: 24px;
+  }
+  .head{
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bold;
+  }
+  .master{
+    line-height: 27px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--radius);
+    font-weight: bold;
+  }
+  .para1{
+    margin-top: 24px;
+    line-height: 20px;
+  }
+  .master_1{
+    color: var(--secondary-color);
+  }
+  .work{
+    margin-top: 48px;
+    padding: 24px;
+  }
+  .travis{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+  }
+  .button_3{
+    line-height: 27px;
+    
+    color: white;
+    border: none;
+    border-radius: var(--radius);
+    font-weight: bold;
+  }
+  .proto{
+    background-color: rgb(0, 161, 112);
+  }
+  .type{
+    background-color: rgb(75, 85, 99);
+  }
+  .senior{
+    font-weight: bold;
+  }
+  .work_page{
+    color: var(--secondary-color);
+  }
+  .para_3{
+    margin-top: 20px;
+    line-height: 20px;
   }
