@@ -254,3 +254,38 @@ cursor: pointer;
     bottom: 12px;
     left: 820px;
   }
+  @media (max-width: 768px) {
+    *{
+      font-family: "Noto Sans", serif;
+    }
+  header{
+    flex-direction: column;
+  }
+  ul{
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  li{
+    padding-top: 20px;
+  }
+  .logo{
+    transform: translateX(20px);
+  }
+  .social{
+    transform: translateX(-20px);
+    margin-top: 20px;
+    
+  }
+  .fa-brands{
+    padding-left: 40px;
+    font-size: 40px;
+  }
+  .line{
+    display: none;
+  }
+  .first_body{
+    flex-direction: column;
+  }
+  .Banner{
+    margin-left: 105px;
+  }}
