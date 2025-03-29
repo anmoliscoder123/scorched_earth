@@ -261,6 +261,7 @@ cursor: pointer;
   header{
     flex-direction: column;
     position: static;
+    box-shadow: none;
   }
   ul{
     flex-direction: column;
@@ -286,7 +287,14 @@ cursor: pointer;
   }
   .first_body{
     flex-direction: column;
+    flex-wrap: wrap;
   }
   .Banner{
-    margin-left: 105px;
-  }}
+    margin-left: 55px;
+    height: 100px;
+    width: 100px;
+  }
+.second_body{
+  flex-wrap: wrap;
+}
+}
